@@ -10,8 +10,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "sass": "^1.52.3",
-    "typer-js": "^5.5.3"
+    "react-typing-effect": "^2.0.5",
+    "sass": "^1.52.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
