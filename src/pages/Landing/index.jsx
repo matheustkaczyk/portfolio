@@ -11,9 +11,9 @@ const Landing = () => {
         text={['Frontend', 'Backend', 'Fullstack']}
         className={'typer'}
         speed={50}
-        eraseSpeed={50}
-        eraseDelay={50}
-        typingDelay={50}
+        eraseSpeed={200}
+        eraseDelay={200}
+        typingDelay={200}
       />
     </div>
   )
