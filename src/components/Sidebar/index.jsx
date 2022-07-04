@@ -1,4 +1,4 @@
-import { AiFillHome, AiFillInfoCircle } from 'react-icons/ai';
+import { AiFillHome, AiFillInfoCircle, AiFillLinkedin } from 'react-icons/ai';
 import { MdOutlineWork } from 'react-icons/md';
 
 const Sidebar = () => {
@@ -13,7 +13,7 @@ const Sidebar = () => {
         </ul>
       </nav>
       <div>
-        <li>Linkedin</li>
+        <li><AiFillLinkedin /></li>
         <li>Github</li>
         <li>Whatsapp</li>
       </div>
