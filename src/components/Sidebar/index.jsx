@@ -12,7 +12,7 @@ const Sidebar = () => {
           <li><MdOutlineWork /></li>
         </ul>
       </nav>
-      <div>
+      <div className='social'>
         <li><AiFillLinkedin /></li>
         <li><AiFillGithub /></li>
         <li><AiOutlineWhatsApp /></li>

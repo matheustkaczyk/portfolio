@@ -8,6 +8,22 @@ aside {
   height: 100vh;
   border: solid black 1px;
   background-color: rgba(255,255,255, 0.1);
+
+  li {
+    list-style: none;
+
+    svg {
+      width: 150%;
+      height: auto;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 
 .landing {
