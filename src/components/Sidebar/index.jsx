@@ -1,18 +1,20 @@
+import { AiFillHome } from 'react-icons/ai';
+
 const Sidebar = () => {
   return(
     <aside>
       <p>"LOGO"</p>
       <nav>
         <ul>
-          <p>Inicio</p>
-          <p>Sobre</p>
-          <p>Projetos</p>
+          <li><AiFillHome /></li>
+          <li>Sobre</li>
+          <li>Projetos</li>
         </ul>
       </nav>
       <div>
-        <p>Linkedin</p>
-        <p>Github</p>
-        <p>Whatsapp</p>
+        <li>Linkedin</li>
+        <li>Github</li>
+        <li>Whatsapp</li>
       </div>
     </aside>
   )
