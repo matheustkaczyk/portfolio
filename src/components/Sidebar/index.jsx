@@ -1,4 +1,4 @@
-import { AiFillHome } from 'react-icons/ai';
+import { AiFillHome, AiFillInfoCircle } from 'react-icons/ai';
 
 const Sidebar = () => {
   return(
@@ -7,7 +7,7 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li><AiFillHome /></li>
-          <li>Sobre</li>
+          <li><AiFillInfoCircle /></li>
           <li>Projetos</li>
         </ul>
       </nav>
