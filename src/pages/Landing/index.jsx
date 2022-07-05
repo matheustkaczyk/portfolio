@@ -1,21 +1,29 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import video from '../../video/videoloop.mp4';
 
 const Landing = () => {
   return(
-    <div className="landing">
-      <h1>Olá,</h1>
-      <h1>Me chamo Matheus Tkaczyk</h1>
-      <h1>Desenvolvedor Web</h1>
-      <ReactTypingEffect
-        text={['Frontend', 'Backend', 'Fullstack']}
-        className={'typer'}
-        speed={50}
-        eraseSpeed={200}
-        eraseDelay={200}
-        typingDelay={200}
-      />
-    </div>
+    <>
+      <video autoPlay muted loop className='bg-video'>
+        <source src={video} type="video/mp4" />
+      </video>
+      <div className="landing">
+        <div>
+          <h1>Olá,</h1>
+          <h1>Me chamo Matheus Tkaczyk</h1>
+          <h1>Desenvolvedor Web</h1>
+          <ReactTypingEffect
+            text={['Front-end', 'Back-end', 'Fullstack']}
+            className={'typer'}
+            speed={20}
+            eraseSpeed={200}
+            eraseDelay={600}
+            typingDelay={200}
+          />
+        </div>
+      </div>
+    </>
   )
 }
 
