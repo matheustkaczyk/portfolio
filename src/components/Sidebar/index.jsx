@@ -14,9 +14,9 @@ const Sidebar = () => {
         </ul>
       </nav>
       <div className='social'>
-        <li><AiFillLinkedin /></li>
-        <li><AiFillGithub /></li>
-        <li><AiOutlineWhatsApp /></li>
+        <li><AiFillLinkedin className='linkedin' /></li>
+        <li><AiFillGithub className='github' /></li>
+        <li><AiOutlineWhatsApp className='whatsapp' /></li>
       </div>
     </aside>
   )
