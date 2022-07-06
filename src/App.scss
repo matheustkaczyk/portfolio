@@ -68,6 +68,8 @@ aside {
     border-radius: 5px;
     width: fit-content;
     height: auto;
+    animation-name: fadeIn;
+    animation-duration: 2s;
   }
 
   .typer {
@@ -79,6 +81,18 @@ aside {
       height: unset;
       padding: unset;
       margin-left: unset;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
     }
   }
 }
