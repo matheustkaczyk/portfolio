@@ -6,7 +6,6 @@ aside {
   position: absolute;
   width: 10vw;
   height: 100vh;
-  border: solid black 1px;
   background-color: rgba(255,255,255, 0.1);
   z-index: 999;
 
@@ -14,8 +13,9 @@ aside {
     list-style: none;
 
     svg {
-      width: 150%;
+      width:  2.5rem;
       height: auto;
+      fill: grey;
     }
   }
 
@@ -33,17 +33,31 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  font-family: 'Bebas Neue';
+  letter-spacing: 3px;
+  
   div {
     z-index: 998;
     margin-left: 5%;
     font-size: x-large;
+    background-color: rgba(255,255,255, 0.1);
+    padding: 2%;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+  }
 
-    .typer {
+  .typer {
+    div {
+      color: grey;
+      font-weight: bolder;
+      background-color: unset;
+      width: unset;
+      height: unset;
+      padding: unset;
       margin-left: unset;
     }
   }
-
 }
 
 .bg-video {

@@ -18,7 +18,7 @@ const Landing = () => {
             className={'typer'}
             speed={20}
             eraseSpeed={200}
-            eraseDelay={600}
+            eraseDelay={400}
             typingDelay={200}
           />
         </div>
