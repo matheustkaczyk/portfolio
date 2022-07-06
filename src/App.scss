@@ -9,6 +9,12 @@ aside {
   background-color: rgba(255,255,255, 0.1);
   z-index: 999;
 
+  svg {
+    width: 2.5rem;
+    height: auto;
+    fill: white;
+  }
+
   li {
     list-style: none;
 
