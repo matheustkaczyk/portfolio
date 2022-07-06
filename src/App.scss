@@ -14,10 +14,12 @@ aside {
     width: 2.5rem;
     height: auto;
     fill: white;
+    cursor: pointer;
   }
 
   li {
     list-style: none;
+    cursor: pointer;
 
     svg {
       width:  2.5rem;
@@ -26,11 +28,25 @@ aside {
     }
   }
 
+  li:hover {
+    svg {
+      fill: grey;
+    }
+  }
+
   .social {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+
+    .linkedin:hover {
+      fill: rgb(0, 119, 181);
+    }
+
+    .whatsapp:hover {
+      fill: rgb(37, 211, 102);
+    }
   }
 }
 
