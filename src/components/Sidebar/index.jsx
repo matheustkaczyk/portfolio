@@ -1,10 +1,10 @@
 import { AiFillHome, AiFillInfoCircle, AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai';
 import { MdOutlineWork } from 'react-icons/md';
+import Logo from '../../images/web-development.svg';
 
 const Sidebar = () => {
   return(
     <aside>
-      <p>"LOGO"</p>
       <nav>
         <ul>
           <li><AiFillHome /></li>
