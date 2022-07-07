@@ -4,7 +4,7 @@ const About = () => {
   const date = new Date();
 
   return(
-    <section className="about">
+    <section className="about" id='about'>
       <div>
         <img src={euImage} alt="Foto Matheus Tkaczyk" />
         <div>

@@ -8,7 +8,7 @@ const Landing = () => {
       <video autoPlay muted loop className='bg-video'>
         <source src={video} type="video/mp4" />
       </video>
-      <div className="landing">
+      <div className="landing" id='home'>
         <div>
           <h1>Olá,</h1>
           <h1>Me chamo <span>Matheus Tkaczyk Ribeiro</span></h1>

@@ -9,10 +9,10 @@ const Sidebar = () => {
       <Logo />
       <nav>
         <ul>
-          <li><AiFillHome /></li>
-          <li><AiFillInfoCircle /></li>
-          <li><BsTools /></li>
-          <li><MdOutlineWork /></li>
+          <li><a href='#home'><AiFillHome /></a></li>
+          <li><a href='#about'><AiFillInfoCircle /></a></li>
+          <li><a><BsTools /></a></li>
+          <li><a><MdOutlineWork /></a></li>
         </ul>
       </nav>
       <div className='social'>
