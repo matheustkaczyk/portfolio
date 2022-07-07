@@ -1,10 +1,17 @@
+
 const Tools = () => {
   return(
     <section className="tools" id="tools">
       <div className="wrapper">
-        <div>Front-end</div>
-        <div>Back-end</div>
-        <div>Bancos de dados</div>
+        <div>
+          <span>Front-end</span>
+        </div>
+        <div>
+          <span>Back-end</span>
+        </div>
+        <div>
+          <span>Bancos de dados</span>
+        </div>
       </div>
     </section>
   )
