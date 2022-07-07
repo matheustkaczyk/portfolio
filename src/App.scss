@@ -170,5 +170,14 @@ aside {
       }
     }
   }
+}
 
+.tools {
+  margin-left: 10vw;
+  height: 100vh;
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
 }

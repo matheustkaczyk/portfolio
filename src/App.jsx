@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar'
 import About from './pages/About'
 
 import Landing from './pages/Landing'
+import Tools from './pages/Tools'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Sidebar />
       <Landing />
       <About />
+      <Tools />
     </div>
   )
 }
