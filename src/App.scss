@@ -6,7 +6,7 @@ aside {
   position: fixed;
   width: fill-content;
   height: 100vh;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.8);
   backdrop-filter: blur(2px);
   z-index: 999;
 
@@ -30,7 +30,7 @@ aside {
 
   li:hover {
     svg {
-      fill: grey;
+      fill: rgb(0, 132, 255);
     }
   }
 
@@ -52,6 +52,10 @@ aside {
 
     .whatsapp:hover {
       fill: rgb(37, 211, 102);
+    }
+
+    .github:hover {
+      fill: grey;
     }
   }
 }
@@ -76,6 +80,10 @@ aside {
     height: auto;
     animation-name: fadeIn;
     animation-duration: 2s;
+
+    span {
+      color: rgb(0, 132, 255);
+    }
   }
 
   .typer {
