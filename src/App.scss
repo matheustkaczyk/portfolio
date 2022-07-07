@@ -116,4 +116,16 @@ aside {
   width: 100vw;
   height: 100vh;
   object-fit: fill;
+  z-index: -999;
+}
+
+.about {
+  height: 100vh;
+  margin-left: 10vw;
+
+  img {
+    width: 300px;
+    filter: grayscale(100%);
+    border: solid grey 25px;
+  }
 }
