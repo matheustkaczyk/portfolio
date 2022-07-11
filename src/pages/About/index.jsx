@@ -1,7 +1,13 @@
 import euImage from '../../images/tkaczyk.jpg';
 
+import CV from '../../assets/MATHEUS_TKACZYK_RIBEIRO_CV.pdf';
+
 const About = () => {
   const date = new Date();
+
+  const handleClick = () => {
+
+  }
 
   return(
     <section className="about" id='about'>
@@ -13,12 +19,17 @@ const About = () => {
             do desenvolvimento.<br/> Além de estudar por conta própria, fiz o bootcamp de 1 ano da Trybe, onde aprendi um novo universo de linguagens e tecnologias
             no mundo Fullstack.
           </p>
-          <span>Hobbies:</span>
-          <ul>
-            <li>Gaming</li>
-            <li>Leitura</li>
-            <li>Séries</li>
-          </ul>
+          <div className='wrapper'>
+            <div>
+              <span>Hobbies:</span>
+              <ul>
+                <li>Gaming</li>
+                <li>Leitura</li>
+                <li>Séries</li>
+              </ul>
+            </div>
+              <a href={CV} download='MatheusTkaczykRibeiroCV'>Download CV</a>
+          </div>
         </div>
       </div>
     </section>
