@@ -19,6 +19,7 @@ const About = () => {
             do desenvolvimento.<br/> Além de estudar por conta própria, fiz o bootcamp de 1 ano da Trybe, onde aprendi um novo universo de linguagens e tecnologias
             no mundo Fullstack.
           </p>
+          <hr />
           <div className='wrapper'>
             <div>
               <span>Hobbies:</span>
@@ -28,7 +29,7 @@ const About = () => {
                 <li>Séries</li>
               </ul>
             </div>
-              <a href={CV} download='MatheusTkaczykRibeiroCV'>Download CV</a>
+            <a href={CV} download='MatheusTkaczykRibeiroCV'>Download CV</a>
           </div>
         </div>
       </div>
