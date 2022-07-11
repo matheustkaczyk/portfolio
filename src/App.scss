@@ -31,6 +31,7 @@ aside {
   li:hover {
     svg {
       fill: rgb(0, 132, 255);
+      transition: ease .5s;
     }
   }
 
@@ -142,8 +143,8 @@ aside {
     }
 
     a:hover {
-      box-shadow: 2px 5px rgb(59, 59, 59);
-      transition: width 2s, height 4s;
+      transition: ease-in-out .2s;
+      text-shadow: 2px 2px black;
     }
   }
   
