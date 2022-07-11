@@ -1,18 +1,19 @@
+import Slider from 'react-slick';
 
 const Tools = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return(
     <section className="tools" id="tools">
-      <div className="wrapper">
-        <div>
-          <span>Front-end</span>
-        </div>
-        <div>
-          <span>Back-end</span>
-        </div>
-        <div>
-          <span>Bancos de dados</span>
-        </div>
-      </div>
+      <Slider settings={settings}>
+
+      </Slider>
     </section>
   )
 }
