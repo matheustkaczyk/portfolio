@@ -1,5 +1,5 @@
 import JavaScriptLogo from '../../images/javascript.svg?component';
-import HtmlLogo from '../../images/htmo.svg?component';
+import HtmlLogo from '../../images/html.svg?component';
 import CssLogo from '../../images/css.svg?component';
 import ReactLogo from '../../images/react.svg?component';
 import ReduxLogo from '../../images/redux.svg?component';
