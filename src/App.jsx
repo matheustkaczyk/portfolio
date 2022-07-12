@@ -1,9 +1,10 @@
 import './App.scss'
 
 import Sidebar from './components/Sidebar'
-import About from './pages/About'
 
+import About from './pages/About'
 import Landing from './pages/Landing'
+import Projects from './pages/Projects'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Sidebar />
       <Landing />
       <About />
+      <Projects />
     </div>
   )
 }
