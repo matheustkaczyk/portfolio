@@ -11,7 +11,7 @@ const Cards = ({ name, text, githubLink, deploymentLink }) => {
           <p>{text}</p>
           <div>
             <a href={githubLink} target='__blank'><AiFillGithub /></a>
-            
+            <a href={deploymentLink} target='__blank'>Visitar</a>
           </div>
         </div>
       </div>
