@@ -1,3 +1,5 @@
+import Cards from "../../components/Cards";
+
 const Projects = () => {
   const projectsInfo = [
     {
@@ -29,6 +31,9 @@ const Projects = () => {
   return(
     <section className="projects">
       <h2>Projetos</h2>
+      <div className="projects-wrapper">
+        {projectsInfo.map(({ name, text, githubLink, deploymentLink }) => <Cards name={name} text={text} githubLink={githubLink} deploymentLink={deploymentLink} />)}
+      </div>
     </section>
   )
 }
