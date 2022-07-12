@@ -10,11 +10,11 @@ const About = () => {
   }
 
   return(
-    <section className="about" id='about'>
+    <section className="about">
       <div>
         <img src={euImage} alt="Foto Matheus Tkaczyk" />
         <div>
-          <p>
+          <p id='about'>
             Sou <span>apaixonado</span> por ciência e tecnologia, no momento estou em transição de carreira para o mundo
             do desenvolvimento.<br/> Além de estudar por conta própria, fiz o bootcamp de 1 ano da Trybe, onde aprendi um novo universo de linguagens e tecnologias
             no mundo Fullstack.
