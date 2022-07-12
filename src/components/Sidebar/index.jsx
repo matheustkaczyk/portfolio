@@ -1,5 +1,4 @@
 import { AiFillHome, AiFillInfoCircle, AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai';
-import { BsTools } from 'react-icons/bs';
 import { MdOutlineWork } from 'react-icons/md';
 import Logo from '../../images/web-development.svg?component';
 
