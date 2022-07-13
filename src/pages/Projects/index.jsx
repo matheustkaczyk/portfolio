@@ -17,8 +17,8 @@ const Projects = () => {
     {
       name: 'QRCode Generator',
       text: 'Aplicação de um gerador de QR Code, feita utilizando React e SASS.',
-      githubLink: 'https://qrcode-gen-tka.netlify.app/',
-      deploymentLink: 'https://github.com/matheustkaczyk/qrcode-generator'
+      githubLink: 'https://github.com/matheustkaczyk/qrcode-generator',
+      deploymentLink: 'https://qrcode-gen-tka.netlify.app/',
     },
     {
       name: 'Splitter',

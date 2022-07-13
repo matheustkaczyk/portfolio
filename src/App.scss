@@ -202,6 +202,9 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0,0,0, 0.5);
+  font-family: 'Bebas Neue';
+  color: rgb(0, 132, 255);
 
   .projects-wrapper {
     display: flex;
@@ -215,7 +218,7 @@ aside {
   width: 15em;
   height: 10em;
   perspective: 1000px;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .flip-card-inner {
@@ -243,8 +246,11 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #bbb;
+  background-color: rgba(0,0,0, 1);
+  border: solid white 2px;
+  border-radius: 5px;
   color: black;
+  padding: 4%;
 }
 
 .flip-card-back {
@@ -252,9 +258,10 @@ aside {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background-color: dodgerblue;
-  padding: 5%;
+  background-color: rgba(0,0,0, 1);
+  border: solid white 2px;
   color: white;
   transform: rotateY(180deg);
   text-align: justify;
+  padding: 4%;
 }
