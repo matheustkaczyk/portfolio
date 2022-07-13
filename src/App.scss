@@ -202,7 +202,6 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0, 0.5);
   font-family: 'Bebas Neue';
   color: rgb(0, 132, 255);
 
@@ -264,4 +263,10 @@ aside {
   transform: rotateY(180deg);
   text-align: justify;
   padding: 4%;
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
