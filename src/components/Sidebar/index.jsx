@@ -11,7 +11,7 @@ const Sidebar = () => {
           <li><a href='#home'><AiFillHome /></a></li>
           <li><a href='#about'><AiFillInfoCircle /></a></li>
           {/* <li><a href="#tools"><BsTools /></a></li> */}
-          <li><a><MdOutlineWork /></a></li>
+          <li><a href="#projects"><MdOutlineWork /></a></li>
         </ul>
       </nav>
       <div className='social'>
