@@ -6,7 +6,7 @@ header {
   width: 98vw;
   height: 10vh;
   position: sticky;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0,0,0, 0.7);
   backdrop-filter: blur(2px);
   z-index: 999;
   top: 0;
@@ -136,16 +136,16 @@ header {
 
 .about {
   height: 100vh;
-  padding: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0,0,0, 0.9);
 
   .wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: auto;
+    width: fit-content;
 
     a {
       width: 15rem;
@@ -167,7 +167,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgba(0,0,0, 0.5);
 
     img {
       width: 40%;
@@ -181,7 +180,7 @@ header {
       text-align: justify;
       align-items: unset;
       font-family: 'Bebas Neue';
-      font-size: xx-large;
+      font-size: 1.5rem;
       padding: 3%;
       border-radius: 5px;
 

@@ -19,6 +19,9 @@ const About = () => {
             do desenvolvimento.<br/> Além de estudar por conta própria, fiz o bootcamp de 1 ano da Trybe, onde aprendi um novo universo de linguagens e tecnologias
             no mundo Fullstack.
           </p>
+          <p>
+            No momento estou cursando <span>Ciência da Computação</span> na Estácio.
+          </p>
           <hr />
           <div className='wrapper'>
             <div>
