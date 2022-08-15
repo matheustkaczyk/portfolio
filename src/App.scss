@@ -1,14 +1,15 @@
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
-  width: fill-content;
-  height: 100vh;
+  width: 98vw;
+  height: 10vh;
+  position: sticky;
   background-color: rgba(0,0,0, 0.8);
   backdrop-filter: blur(2px);
   z-index: 999;
+  top: 0;
 
   svg {
     width: 2.5rem;
@@ -17,12 +18,26 @@ header {
     cursor: pointer;
   }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  }
+
   li {
     list-style: none;
     cursor: pointer;
 
     svg {
-      width:  2.5rem;
+      width:  2.0rem;
       height: auto;
       fill: white;
     }
@@ -45,7 +60,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 20%;
 
     .linkedin:hover {
       fill: rgb(0, 119, 181);
@@ -62,7 +77,6 @@ header {
 }
 
 .landing {
-  margin-left: 10vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -122,7 +136,6 @@ header {
 
 .about {
   height: 100vh;
-  margin-left: 10vw;
   padding: 2%;
   display: flex;
   justify-content: center;
@@ -196,7 +209,6 @@ header {
 
 .projects {
   height: 100vh;
-  margin-left: 10vw;
   padding: 2%;
   display: flex;
   flex-direction: column;
